@@ -12,11 +12,11 @@ Editor.App.extend({
         local: settingsPath,
       },
       'package-search-path': [
-        Editor.url('app://packages/'),
-        Editor.url('app://package-examples/'),
+        'app://packages/',
+        'app://package-examples/',
       ],
       'panel-window': 'app://window.html',
-      'layout': Editor.url('app://layout.json'),
+      'layout': 'app://layout.json',
     });
 
     if ( cb ) {
@@ -41,6 +41,9 @@ Editor.App.extend({
     mainWin.restorePositionAndSize();
 
     // load and show main window
+    // mainWin.nativeWin.once('ready-to-show', () => {
+    //   mainWin.show();
+    // });
     mainWin.show();
 
     // page-level test case
