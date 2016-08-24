@@ -13,7 +13,6 @@
     "gulp-sequence": "0.4.4"
   },
   "hosts": {
-    "fireball-packages/package-examples": "master"
   },
   "packages": {
     "fireball-packages/console": "master",
