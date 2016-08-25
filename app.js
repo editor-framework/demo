@@ -1,16 +1,10 @@
 'use strict';
 
 const Editor = require('../index');
-const Path = require('fire-path');
 
 Editor.App.extend({
   init ( opts, cb ) {
-    let settingsPath = Path.join(Editor.App.path, '.settings');
-
     Editor.init({
-      'profile': {
-        local: settingsPath,
-      },
       'package-search-path': [
         'app://packages/',
         'app://package-examples/',
