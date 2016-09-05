@@ -1,37 +1,34 @@
 {
-  "docks": [
+  "type": "dock-v",
+  "children": [
     {
-      "docks": [
+      "type": "dock-h",
+      "children": [
         {
+          "type": "panel",
           "active": 0,
-          "panels": [
+          "children": [
             "tester",
             "ipc-debugger"
-          ],
-          "type": "panel",
-          "width": 350
+          ]
         },
+
         {
+          "type": "panel",
           "active": 0,
-          "panels": [
+          "children": [
             "package-manager"
-          ],
-          "type": "panel"
+          ]
         }
-      ],
-      "row": true,
-      "type": "dock"
+      ]
     },
+
     {
-      "active": 0,
-      "panels": [
-        "console"
-      ],
       "type": "panel",
-      "height": 300
+      "active": 0,
+      "children": [
+        "console"
+      ]
     }
-  ],
-  "no-collapse": true,
-  "row": false,
-  "type": "dock"
+  ]
 }

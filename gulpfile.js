@@ -8,7 +8,7 @@ var Chalk = require('chalk');
 var gulp = require('gulp');
 var gulpSequence = require('gulp-sequence');
 
-var git = require('./utils/libs/git.js');
+var git = require('./utils/libs/git');
 var pjson = require('./package.json');
 var spawn = require('child_process').spawn;
 
