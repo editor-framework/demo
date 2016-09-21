@@ -18,7 +18,7 @@
     "fireball-packages/console": "master",
     "fireball-packages/ipc-debugger": "master",
     "fireball-packages/package-manager": "master",
-    "fireball-packages/tester": "master",
-    "fireball-packages/ui-kit-preview": "master"
+    "editor-framework/tester": "master",
+    "editor-framework/ui-kit-preview": "master"
   }
 }
